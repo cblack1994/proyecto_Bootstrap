@@ -1,0 +1,54 @@
+  body {
+
+    background-color: #B40404;
+
+  }
+
+  .posicion-redes {
+
+    float: right;
+    margin-top: 35px;
+
+  }
+
+  #link-youtube {
+
+    color: #DF0101;
+
+}
+
+  #link-facebook {
+
+    color: #084B8A;
+
+}
+
+  #link-instagram {
+
+    color: #1C1C1C;
+
+}
+
+  #link-pinterest {
+
+    color: #FF0000;
+
+}
+
+  #link-twitter {
+
+    color: #58ACFA;
+
+}
+
+
+  @media (max-width:420px) {
+
+    .posicion-redes {
+
+      float: none;
+
+  }
+
+
+}
