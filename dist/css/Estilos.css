@@ -6,8 +6,8 @@
 
   .posicion-redes {
 
+    margin-top: 50px;
     float: right;
-    margin-top: 35px;
 
   }
 
@@ -15,40 +15,75 @@
 
     color: #DF0101;
 
-}
+
+  }
 
   #link-facebook {
 
     color: #084B8A;
 
-}
+  }
 
   #link-instagram {
 
     color: #1C1C1C;
 
-}
+  }
 
   #link-pinterest {
 
     color: #FF0000;
 
-}
+  }
 
   #link-twitter {
 
     color: #58ACFA;
 
-}
+  }
 
 
-  @media (max-width:420px) {
+  @media (max-width:430px) {
 
     .posicion-redes {
 
-      float: none;
+      float: none !important;
+
 
   }
 
+    .contenedor-responsivo {
+
+      text-align: center;
+
+}
+
+    .logo {
+
+      margin-bottom: 15px;
+  }
+
+}
+
+  @media (min-width:426px) and (max-width:770px) {
+
+    .posicion-redes {
+
+      float: none !important;
+
+
+  }
+
+    .contenedor-responsivo {
+
+      text-align: center;
+
+  }
+
+    .logo {
+
+      margin-bottom: 15px;
+
+  }
 
 }
