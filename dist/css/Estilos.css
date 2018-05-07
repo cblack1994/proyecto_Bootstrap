@@ -6,7 +6,8 @@
 
   .posicion-redes {
 
-    margin-top: 50px;
+    margin-top: 45px;
+    margin-left: 10px;
     float: right;
 
   }
@@ -42,12 +43,30 @@
 
   }
 
+  .estilo-nav {
+
+    background-color: #FAAC58;
+    border-radius: 2px;
+
+  }
+
+  .tamaño-responsive {
+
+    width: 15%;
+
+
+  }
+
+
+
+
 
   @media (max-width:430px) {
 
     .posicion-redes {
 
       float: none !important;
+      margin: 5px;
 
 
   }
@@ -61,6 +80,14 @@
     .logo {
 
       margin-bottom: 15px;
+
+  }
+
+  .tamaño-responsive {
+
+    width: 100%;
+    text-align: center;
+
   }
 
 }
@@ -70,6 +97,7 @@
     .posicion-redes {
 
       float: none !important;
+      margin: 25px
 
 
   }
@@ -82,7 +110,17 @@
 
     .logo {
 
-      margin-bottom: 15px;
+      margin-bottom: 15px !important;
+      width: 70%;
+      display: block;
+      margin: auto;
+
+  }
+
+    .tamaño-responsive {
+
+    width: 100% !important;
+    text-align: center !important;
 
   }
 
