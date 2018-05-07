@@ -53,6 +53,7 @@
 
     background-color: #FAAC58;
     border-radius: 2px;
+    margin-bottom: 10px;
 
   }
 
@@ -71,18 +72,23 @@
 
 }
 
-  .posicion-contenido-imagen {
+  .posición-icono {
 
-    float: right;
-
-}
-
-  .posicion-contenido-texto {
-
-    float: left;
+    text-align: center;
 
 }
 
+  .estilo-contenido {
+
+    margin-top: 10px;
+
+}
+
+  p {
+
+    text-align: justify;
+
+}
 
 
   @media (max-width:430px) {
@@ -123,7 +129,7 @@
 
 }
 
-  @media (min-width:426px) and (max-width:770px) {
+  @media (min-width:426px) and (max-width:900px) {
 
     .posicion-redes {
 
