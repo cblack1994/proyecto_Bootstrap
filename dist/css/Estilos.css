@@ -90,6 +90,12 @@
 
 }
 
+  .posicion-icono-buscar {
+
+    margin-top: 12%;
+
+}
+
 
   @media (max-width:430px) {
 
@@ -110,6 +116,8 @@
     .logo {
 
       margin-bottom: 15px;
+      width: 100%;
+
 
 
   }
@@ -123,13 +131,25 @@
 
   .tamaño-header {
 
-    height: 360px;
+    height: 500px !important;
+
+  }
+
+  .efecto-link {
+
+    background-color: #FAAC58 !important;
+
+  }
+
+  .estilo-imagen {
+
+    margin-bottom: 20px;
 
   }
 
 }
 
-  @media (min-width:426px) and (max-width:900px) {
+  @media (min-width:435px) and (max-width:1023px) {
 
     .posicion-redes {
 
@@ -161,10 +181,24 @@
 
   }
 
-  .tamaño-header {
+    .tamaño-header {
 
-    height: 560px;
+      height: 560px;
 
-}
+  }
+
+    .estilo-imagen {
+
+      display: block;
+      margin: auto;
+
+  }
+
+    .posición-icono {
+
+      text-align: center;
+      margin-top: 20px;
+
+  }
 
 }
